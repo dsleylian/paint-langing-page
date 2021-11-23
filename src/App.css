@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+div.navbar ul {
+margin-right: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div.navbar ul li {
+  display: inline;
+  margin-left:10px;
+  padding: 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+  display: inline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button {
+  border-radius: 5px;
+  padding: 8px;
+}
+
+li:hover {
+  color:pink;
+}
+
+li.button:hover {
+  background-color: rgb(255,192,203, 0.8);
+  color: black;
+  box-shadow: 2px 2px 15px white, -2px -2px 15px white, 2px -2px 15px white, -2px 2px 15px white;
+}
+
+#logo {
+  height: 60px;
+  padding-left: 20px;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-image: url('./images/darkblue.jpeg');
+  color: white;
+  font-weight: 700;
+}
+
+.project-content {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 35px;
+}
+
+.big-logo {
+  margin-bottom: -100px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: -110px;
+}
+
+#developer{
+  padding-bottom: 100px;
+}
+
+.developer-container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.developer-h2{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.developer-content h2{
+  margin-top: 0;
+}
+
+.developer-content {
+  line-height: 35px;
+}
+
+#footer {
+  background-image: url('./images/darkblue.jpeg');
+  height: 350px;
+}
+
+.footer-container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: nowrap;
+  padding-bottom: 0;
+}
+
+.footer-img, .footer-button-ul {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
+  color: black;
+  font-size: 30px;
+}
+
+div.footer-container ul {
+  padding-left: 0;
+  margin-top: -30px;
+}
+
+.footer-button {
+  background-color: white;
+}
+
+.icons-ul {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.icons-ul li {
+  padding-right: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.project-samples{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+padding-top: 30px;
+padding-bottom: 100px;
+
+}
+
+.sample {
+  padding: 20px;
+}
+
+.samples-p {
+  padding-top: 30px;
 }
