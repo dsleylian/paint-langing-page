@@ -7,10 +7,10 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-    <Header />
-     <Project />
-     <Developer />
-     <Footer />
+      <Header />
+      <Project />
+      <Developer />
+      <Footer />
     </div>
   );
 }

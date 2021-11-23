@@ -9,7 +9,7 @@ function Developer() {
             <h2>About the Developer: Darya Leylian</h2>
         </div>
         <div className="developer-container">
-            <div className="developer-content grid-child">
+            <div className="developer-content">
                 <p>I am a Fullstack Developer with a focus on Front End. I enjoy using HTML, CSS, and Javascript in combination with React and React Native. I enjoy puzzles and problem solving, and am always looking for new opportunities to learn. </p>
             </div>
             <img height="200" src={DL} alt="Darya Leylian" />

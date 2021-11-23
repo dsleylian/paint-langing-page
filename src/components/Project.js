@@ -10,19 +10,19 @@ function Project(){
 
   return(
     <div id="home" className="project-container">
-      <div className="big-logo">
-        <img height="400px" src={BigLogo} alt="Darley large logo" />
-      </div>
-      <div className="project-content">
-        <h2>How to Use</h2>
-        <p>Darley Paint is an app based on the classic Microsoft Paint. You can pick a brush thickness, transparency, and color, and paint what you'd like on the canvas. You have 3 eraser thicknesses to choose from if you need to fix something, as well as a reset button to start with a fresh canvas. </p>
-        <ul className="color-button-ul">
+        <div className="big-logo">
+            <img height="400px" src={BigLogo} alt="Darley large logo" />
+        </div>
+        <div className="project-content">
+            <h2>How to Use</h2>
+            <p>Darley Paint is an app based on the classic Microsoft Paint. You can pick a brush thickness, transparency, and color, and paint what you'd like on the canvas. You have 3 eraser thicknesses to choose from if you need to fix something, as well as a reset button to start with a fresh canvas. </p>
+            <ul className="color-button-ul">
                 <li className="color-button" > 
                     <a href="https://darleypaint.vercel.app/">Paint Now</a>
                 </li>
             </ul>
-        <h2>Development tools</h2>
-        <ul className="icons-ul">
+            <h2>Development tools</h2>
+            <ul className="icons-ul">
                 <li className="tool-card"> 
                     <FontAwesomeIcon icon={faReact} size="3x"/>    
                     <p>React</p>
@@ -40,13 +40,13 @@ function Project(){
                     <p>CSS</p>
                 </li>
             </ul>
-        <h2>Examples</h2>
-      </div>
-      <div className="project-samples">
-          <img className="sample" height="200px" src={sample_1} alt="sample" />    
-          <img className="sample" height="200px" src={sample_2} alt="sample" />    
-          <img className="sample" height="200px" src={sample_3} alt="sample" />    
-      </div>
+            <h2>Examples</h2>
+        </div>
+        <div className="project-samples">
+            <img className="sample" height="200px" src={sample_1} alt="sample" />    
+            <img className="sample" height="200px" src={sample_2} alt="sample" />    
+            <img className="sample" height="200px" src={sample_3} alt="sample" />    
+        </div>
     </div>
   )
 }
