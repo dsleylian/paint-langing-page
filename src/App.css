@@ -27,6 +27,19 @@ li.button:hover {
   box-shadow: 2px 2px 15px white, -2px -2px 15px white, 2px -2px 15px white, -2px 2px 15px white;
 }
 
+.color-button{
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(255,192,203, 0.8);
+  color: black;
+ 
+}
+.color-button:hover{
+  
+  box-shadow: 2px 2px 15px rgb(255,192,203, 0.8), -2px -2px 15px rgb(255,192,203, 0.8), 2px -2px 15px rgb(255,192,203, 0.8), -2px 2px 15px rgb(255,192,203, 0.8);
+  color:black
+}
+
 #logo {
   height: 60px;
   padding-left: 20px;
@@ -116,6 +129,16 @@ a, a:visited, a:hover, a:active {
   font-size: 30px;
 }
 
+.color-button-ul{
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
+  color: black;
+  font-size: 30px;
+  padding-left: 0;
+  text-align: center;
+}
+
 div.footer-container ul {
   padding-left: 0;
   margin-top: -30px;
@@ -125,14 +148,14 @@ div.footer-container ul {
   background-color: white;
 }
 
-.icons-ul {
+.footer-icons-ul {
   margin-left: auto;
   margin-right: auto;
   padding-top: 40px;
   color: white;
 }
 
-.icons-ul li {
+.footer-icons-ul li {
   padding-right: 30px;
 }
 
@@ -151,4 +174,32 @@ padding-bottom: 100px;
 
 .samples-p {
   padding-top: 30px;
+}
+
+.devIcons{
+  margin-top: 40px;
+  width: 60px
+}
+
+.tool-card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 40px;
+}
+
+.icons-ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+
+
+h2{
+  padding-top: 25px;
 }

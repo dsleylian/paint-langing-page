@@ -17,7 +17,7 @@ function Footer() {
                 </li>
             </ul>
 
-            <ul className="icons-ul">
+            <ul className="footer-icons-ul">
                 <li> 
                   <a target="_blank" href="https://github.com/dsleylian/paint" rel="noreferrer"> <FontAwesomeIcon icon={faGithub} size="3x"/>  </a>
                 </li>
