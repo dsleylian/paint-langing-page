@@ -15,7 +15,7 @@ function Project(){
         </div>
         <div className="project-content">
             <h2>How to Use</h2>
-            <p>Darley Paint is an app based on the classic Microsoft Paint. You can pick a brush thickness, transparency, and color, and paint what you'd like on the canvas. You have 3 eraser thicknesses to choose from if you need to fix something, as well as a reset button to start with a fresh canvas. </p>
+            <p>Darley Paint is an app modeled after the classic Microsoft Paint. In Darley, you can create masterpieces by selecting paint brushes of various thickness, color, and saturation. An eraser is available, as well as a reset button to refresh your canvas. </p>
             <ul className="color-button-ul">
                 <li className="color-button" > 
                     <a href="https://darleypaint.vercel.app/">Paint Now</a>
