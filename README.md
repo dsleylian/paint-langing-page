@@ -20,3 +20,14 @@ This web app was made using:
 - Javascript
 - HTML
 - CSS
+
+##Install Instructions
+
+first install all dependencies with
+```
+npm install
+````
+Then, to run locally:
+```
+npm start
+```
