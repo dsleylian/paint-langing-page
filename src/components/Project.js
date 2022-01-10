@@ -47,6 +47,10 @@ function Project(){
             <img className="sample" height="200px" src={sample_2} alt="sample" />    
             <img className="sample" height="200px" src={sample_3} alt="sample" />    
         </div>
+        <div className="project-content-video">
+        <h2>Video Walkthrough</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qjZHUpBGNwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="video"></iframe>
+        </div>
     </div>
   )
 }

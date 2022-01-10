@@ -176,7 +176,7 @@ div.footer-container ul {
 flex-direction: row;
 justify-content: center;
 padding-top: 30px;
-padding-bottom: 100px;
+padding-bottom: 50px;
 
 }
 
@@ -211,7 +211,21 @@ padding-bottom: 100px;
   padding: 0;
 }
 
-
 h2{
   padding-top: 25px;
+}
+
+.video {
+  padding-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-content-video {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 35px;
+
 }
