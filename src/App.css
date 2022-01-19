@@ -171,7 +171,8 @@ div.footer-container ul {
 }
 
 .footer-icons-ul li {
-  padding-right: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .project-samples{
@@ -180,7 +181,6 @@ flex-direction: row;
 justify-content: center;
 padding-top: 30px;
 padding-bottom: 50px;
-
 }
 
 .sample {
@@ -279,8 +279,7 @@ h2{
 
   .footer-container {
     width: 100%;
-    margin-right: 10px;
-    margin-left: 10px;
+    
   }
 
   .big-logo {
