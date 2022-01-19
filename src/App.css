@@ -1,3 +1,7 @@
+.App{
+  width: 100%;
+}
+
 div.navbar ul {
 margin-right: 30px;
 }
@@ -71,7 +75,6 @@ a, a:visited, a:hover, a:active {
 }
 
 .big-logo {
-  margin-bottom: -100px;
   width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -108,7 +111,7 @@ a, a:visited, a:hover, a:active {
 
 #footer {
   background-image: url('./images/darkblue.jpeg');
-  height: 350px;
+  width: 1000px;
 }
 
 .footer-container {
@@ -228,4 +231,90 @@ h2{
   margin-right: auto;
   line-height: 35px;
 
+}
+
+.about-large-screen {
+  display: inline-block;
+}
+
+.about-small-screen {
+  display:none;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #footer {
+    width: 100%;
+  }
+  
+  .project-content {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-content-video {
+    width: 300px;
+  }
+
+  iframe {
+    width: 300px;
+    height: 160px;
+  }
+
+  .developer-h2{
+    width: 290px;
+  }
+
+  .developer-container{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    line-height: 65px;
+    margin-top: 140px;
+  }
+
+  .footer-container {
+    width: 350px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .big-logo {
+    width: 375px;
+    margin-top: 40px;
+    margin-bottom: -160px;
+  }
+
+  .big-logo-img {
+    width: 400px;
+  }
+
+  .project-samples{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tool-card{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .navbar {
+    width:90%;
+  }
+
+  .about-large-screen{
+    display: none;
+  }
+
+  .about-small-screen{
+    display: inline-block;
+  }
+  #logo{
+    display: none;
+  }
 }

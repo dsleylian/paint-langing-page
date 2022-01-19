@@ -12,7 +12,8 @@ function Header() {
               <a href="/">Home</a>
           </li>
           <li>
-              <a href="#developer">About the Developer</a>
+              <a className="about-large-screen"href="#developer">About the Developer</a>
+              <a className="about-small-screen" href="#developer">About</a>
           </li>
           <li className="button" > 
               <a href="https://darleypaint.vercel.app/">Paint Now</a>

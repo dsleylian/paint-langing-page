@@ -11,7 +11,7 @@ function Project(){
   return(
     <div id="home" className="project-container">
         <div className="big-logo">
-            <img height="400px" src={BigLogo} alt="Darley large logo" />
+            <img className="big-logo-img" height="400px" src={BigLogo} alt="Darley large logo" />
         </div>
         <div className="project-content">
             <h2>How to Use</h2>
