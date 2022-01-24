@@ -318,6 +318,15 @@ h2{
     display: inline-block;
   }
   #logo{
-    display: none;
+    height: 40px;
+    padding: 0;
+  }
+
+  .navbar {
+    justify-content: left;
+  }
+
+  .navbar-links{
+    padding: 0;
   }
 }

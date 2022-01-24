@@ -7,7 +7,7 @@ function Header() {
     <div>
       <div className="navbar">
         <a href="/"><img alt="logo" id="logo"src={logo}></img></a>
-        <ul >
+        <ul className="navbar-links">
           <li>
               <a href="/">Home</a>
           </li>
