@@ -20,7 +20,7 @@ This web app was made using:
 - HTML
 - CSS
 
-##Install Instructions
+## Install Instructions
 
 first install all dependencies with
 ```
