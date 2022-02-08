@@ -3,6 +3,8 @@ import BigLogo from '../images/Darley_brush_logo.svg';
 import sample_1 from '../images/Canvas_drawings1.jpg';
 import sample_2 from '../images/Canvas_drawings2.jpg';
 import sample_3 from '../images/Canvas_drawings3.jpg';
+import recognition_1 from '../images/comet.gif'
+import recognition_2 from '../images/galaxy.gif'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faJs, faCss3, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 
@@ -41,7 +43,7 @@ function Project(){
                 </li>
             </ul>
             <h2>Examples</h2>
-        </div>
+        
         <div className="project-samples">
             <img className="sample" height="200px" src={sample_1} alt="sample" />    
             <img className="sample" height="200px" src={sample_2} alt="sample" />    
@@ -51,6 +53,19 @@ function Project(){
         <h2>Video Walkthrough</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/qjZHUpBGNwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="video"></iframe>
         </div>
+        <h2>Recognition</h2> 
+            <p>This project won a Mintbean Star Award in the Mintbean Hackathon in November 2021.</p> 
+            <div className="recognition-content">
+                <div className="recog-flex">
+                    <img className="recognition-image" src={recognition_1} alt="Nucamp screenshot" height="100px"/>
+                    <p>Mintbean Star Award: Top 5% of developers.</p>
+                </div>
+                <div className="recog-flex">
+                    <img className="recognition-image" src={recognition_2} alt="Nucamp graduation" height="100px"/>
+                    <p>Certificate of Completion: Top 16% of developers.</p>
+                </div>
+            </div>
+            </div>
     </div>
   )
 }
