@@ -12,7 +12,7 @@ function Developer() {
             </div>
             <div className="developer-container">
                 <div className="developer-content">
-                    <p>I am a Fullstack Developer with a focus on Front End. I enjoy using HTML, CSS, and Javascript in combination with React and React Native. I enjoy puzzles and problem solving, and am always looking for new opportunities to learn. </p>
+                    <p>I am a Fullstack Developer with a focus on Front End, located in Los Angeles, CA. I enjoy using HTML, CSS, and Javascript in combination with React and React Native to create applications. I am an avid jigsaw puzzler, love riddles and problem solving, and am always looking for new opportunities to learn. </p>
                 </div>
                 <img height="200" src={DL} alt="Darya Leylian" />
             </div>
