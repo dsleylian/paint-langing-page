@@ -22,7 +22,7 @@ function Developer() {
         </div>
         <ul className="contact-button-ul">
             <li className="color-button" > 
-                <a href="mailto:@daryaleylian@gmail.com">Contact Me</a>
+                <a href="mailto:daryaleylian@gmail.com">Contact Me</a>
             </li>
         </ul>
     </div>

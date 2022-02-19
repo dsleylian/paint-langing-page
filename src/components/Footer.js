@@ -24,7 +24,7 @@ function Footer() {
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:@daryaleylian@gmail.com"> 
+                    <a href="mailto:daryaleylian@gmail.com"> 
                         <svg className="logo-for-hover-mail footer-icons" version="1.1" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px" viewBox="0 0 330.001 330.001" fill="white" >
                             <g   id="XMLID_348_">
                                 <path id="XMLID_350_" d="M173.871,177.097c-2.641,1.936-5.756,2.903-8.87,2.903c-3.116,0-6.23-0.967-8.871-2.903L30,84.602
